@@ -1,0 +1,27 @@
+# A conda environment for BPB Spring 2023 project at NCSU.
+#
+# Usage:
+#   $ conda env create --file=BPB495.yml
+#   $ source activate BPB495
+
+name: BPB495
+
+channels:
+  - conda-forge
+dependencies:
+  - python 
+  - pip
+  - numpy
+  - pandas
+  - notebook
+  - glob2
+  - matplotlib
+
+  # spatial packages
+  - gdal
+  - rasterio
+  - geopandas
+  - rioxarray
+  - earthpy
+  - geojson
+
